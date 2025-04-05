@@ -1,0 +1,133 @@
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background-image: url('space.png');
+  background-size: cover;
+}
+
+.leftbar{
+  align-items: flex-start;
+  color:aqua;
+  background-color: rgba(52,52,52,0.5);
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+  position: absolute;
+  gap: 12px;
+  top:0;
+  left:0;
+  cursor: pointer;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+table {
+  width: 90%;
+  max-width: 1000px;
+  margin: 2rem auto;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  table-layout: fixed;
+  background-color: rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.3);
+  border-radius: 8px;
+  overflow: hidden;
+  color:cyan;
+  position: absolute;
+  top: 250px;
+}
+
+th, td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+th {
+  background-color: black;
+  color: aqua;
+}
+
+td {
+  max-width: 300px;
+  overflow-wrap: break-word;
+  font-size: 10px;
+}
+
+tbody {
+  max-height: 500px;
+  overflow-y: auto;
+  display: block;
+}
+
+thead, tbody tr {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+
+.table{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  flex-direction: column;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 10px; /* add space from the top */
+  margin-bottom: 350px;
+  position: static; /* ← this is important to reset it */
+}
+
+.controls p{
+  color: cyan;
+  
+}
+
+.controls input{
+  padding: 5px;
+  border-radius: 5px;
+  background-color: black;
+  color: cyan;
+}
+
+.controls button{
+  padding: 5px;
+  border-radius: 10px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: black;
+  color: cyan;
+  cursor: pointer;
+}
+
+.controls button:hover{
+  color: black;
+  background-color: cyan;
+}
+.controls h3{
+  color: cyan;
+  background-color: black
+}
+
+.controls .h3-row{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.filters{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+
+}
