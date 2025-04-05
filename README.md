@@ -32,12 +32,10 @@ The following **optional** features are implemented:
   - e.g., as a text input, a dropdown or radio selection, and/or a slider
 - [x] The user can enter specific bounds for filter values
 
-The following **additional** features are implemented:
-
-* [ ] List anything else that you added to improve the site's functionality!
+<img width="1501" alt="Screenshot 2025-04-05 at 4 28 40 PM" src="https://github.com/user-attachments/assets/a0b2b9c7-e414-492e-8d98-d83f4f26c800" />
 
 
 ## Notes
 
 The API itself was challenging to just get the right links from and also processing the month and year and then calling facts from there.
-# WEB102-P6
+
