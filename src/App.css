@@ -131,3 +131,10 @@ thead, tbody tr {
   gap: 20px;
 
 }
+
+.test{
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

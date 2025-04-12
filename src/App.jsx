@@ -3,6 +3,7 @@ import './App.css'
 import Left from './components/Left'
 import Table from './components/Table'
 
+
 function App() {
   const apiKey = import.meta.env.VITE_API_KEY;
   const [data, setData] = useState([])
@@ -50,11 +51,13 @@ function App() {
     </div>
     <div className = "controls">
       <div className = "h3-row">
+      
       <h3>Year : {year}</h3>
       <h3>Month: {month}</h3>
       <h3>Number of Facts: {factsN}</h3>
       </div>
       <div className = "filters">
+        <p>Filter For Your Birth Month And Year!🪐 </p>
       <p>Filter By Year</p>
       <input 
       type = "text"
@@ -62,7 +65,7 @@ function App() {
       value = {year}
       onChange = {(e) => setYear(e.target.value)}/>
       <button onClick = {handleChangeYear}>Search</button>
-      <p>Filter By Year</p>
+      <p>Filter By Month</p>
       <input 
       type = "text"
       placeholder = "Month (XX Format)"
@@ -73,6 +76,9 @@ function App() {
       </div>
     <div className = "table">
     <Table data = {data}/>
+    
+
+    
     </div>
     </>
   )

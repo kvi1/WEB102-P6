@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 
 const Table = ({data}) => {
     return(
@@ -8,6 +9,7 @@ const Table = ({data}) => {
                     <th>Date</th>
                     <th>Title</th>
                     <th>Fact</th>
+                    <th>Link</th>
                 </tr>
             </thead>
             <tbody>
@@ -16,6 +18,10 @@ const Table = ({data}) => {
                         <td>{entry.date}</td>
                         <td>{entry.title}</td>
                         <td>{entry.explanation}</td>
+                        <td>
+                        <Link to={`/${entry.date}`}>🔗</Link>
+                        </td>
+
                     </tr>
                 ))}
             </tbody>
