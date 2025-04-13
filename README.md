@@ -4,7 +4,7 @@ Submitted by: Kartik Vanjani
 
 This web app: Fetches data from a NASA API to get facts from a specific month and year defined by the user, as well as allowing navigation for a picture assosciated with each fact.
 
-Time spent: Around 7 hours spent in total
+Time spent: Around 7 hours spent in total (both parts)
 
 ## Required Features
 
